@@ -68,21 +68,13 @@ Before you begin, ensure you have the following installed:
       `cd ../frontend`
    2. Install the necessary dependencies:  
       `npm install`
-   3. Create a `.env` file in the `frontend` directory and add your backend API URL:  
-      `touch .env`
 
-      Open the `.env` file and add the following:
-
-      ```env
-      REACT_APP_API_URL=http://localhost:5000
-      ```
-
-   4. Run the frontend development server:  
-      `npm start`  
+   3. Run the frontend development server:  
+      `npm run dev`  
       The frontend server should start, and you can view the application in your browser at `http://localhost:3000`.
 
 ## Usage
-1. Open your browser and go to `http://localhost:3000`.
+1. Open your browser and go to `http://localhost:5000`.
 2. Use the interface to add, update, and delete projects and skills.
 3. The application will automatically interact with the backend to store your data in the MongoDB database.
 
