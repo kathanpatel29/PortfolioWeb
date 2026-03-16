@@ -1,4 +1,3 @@
-import React from "react";
 import { contact } from "../data/title";
 import { contacts } from "../data/contact";
 import IconWithText from "./Custom/IconWithText";

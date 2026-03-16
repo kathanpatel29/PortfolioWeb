@@ -1,4 +1,3 @@
-import React from "react";
 import { footer, viewCode } from "../data/title";
 
 function Footer() {

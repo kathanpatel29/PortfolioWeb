@@ -1,6 +1,3 @@
-import React from "react";
-import { mySkills } from "../data/title";
-import Icon from "./Custom/Icon";
 import { skills } from "../data/skill";
 
 function Skills() {

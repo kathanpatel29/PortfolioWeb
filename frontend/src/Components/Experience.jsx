@@ -1,4 +1,3 @@
-import React from "react";
 import Timeline from "./Custom/Timeline";
 import { experience } from "../data/title";
 import { experiences } from "../data/experience";

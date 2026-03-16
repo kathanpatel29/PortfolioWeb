@@ -1,4 +1,3 @@
-import React from "react";
 import icon from "../assets/icon.svg";
 import Typewriter from "typewriter-effect";
 import resume from "../assets/resume.pdf";

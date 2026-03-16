@@ -7,7 +7,6 @@ import css from "../assets/skills/css-3.png";
 import githubActions from "../assets/skills/GitHub_Actions.png";
 import tailwind from "../assets/skills/Tailwind_CSS.png";
 import react from "../assets/skills/react.png";
-import { name } from "./about";
 
 const skills = [
   { name: "C#", icon: node },

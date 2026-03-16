@@ -1,4 +1,3 @@
-import React from "react";
 import { projectsContributions } from "../data/title";
 import { projects } from "../data/project";
 import Card from "./Custom/Card";
