@@ -1,30 +1,33 @@
 import project from "../assets/projects/project.svg";
 import project1 from "../assets/projects/image.png";
+import project2 from "../assets/projects/BookingApp.png";
+import project3 from "../assets/projects/food-del.png";
 
 const projects = [
   {
-    name: "Portfolio",
+    name: "Booking Management System",
+    img: project2,
+    description:
+      "A modern full-stack web application for booking cricket coaching sessions, managing coaches, and handling appointments with robust error handling and performance optimizations.",
+    demo: "https://cricket-coach-booking-app.vercel.app",
+    github: "https://github.com/kathanpatel29/Cricket-Coach-Booking-App",
+  },
+  {
+    name: "Food Delivery App",
+    img: project3,
+    description:
+      "Created the food delivery application with separate frontend, backend, and admin interfaces.",
+    demo: "https://food-delivery-phi-umber.vercel.app/",
+    github: "https://github.com/kathanpatel29/food-delivery",
+  },
+  {
+    name: "Portfolio Website",
     img: project1,
     description:
-      "Explore my MERN Stack portfolio, where I demonstrate my skills in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Each project showcases my ability to create responsive, scalable, and user-friendly applications, from front-end design to back-end integration. Dive in to see how I've applied the MERN stack to solve real-world challenges and deliver impactful solutions.",
-    link: "https://github.com/kathanpatel29/PortfolioWeb",
-
+      "Built and deployed a personal portfolio website using React, showcasing projects, experience, and technical skills.",
+    demo: "https://your-demo-link.com/portfolio",
+    github: "https://github.com/kathanpatel29/PortfolioWeb",
   },
-  {
-    name: "AeroClimate",
-    img: project,
-    description:
-      "AeroClimate is a simple and unique website that provides users with current weather conditions and detailed information for various airports worldwide. This project is especially useful for pilots, frequent flyers, and aviation enthusiasts.",
-    link: "https://github.com/kathanpatel29/AeroClimate",
-  },
-  {
-    name: "Swimming Lesson Management System",
-    img: project,
-    description:
-      "C# Project of swimming class management and booking system having CRUD operations.",
-    link: "https://github.com/kathanpatel29/SwimmingLessonManagementSystem",
-  },
-
 ];
 
 export { projects };

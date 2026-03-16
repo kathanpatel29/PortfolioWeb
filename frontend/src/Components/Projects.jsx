@@ -20,7 +20,8 @@ function Projects() {
                 name={element.name}
                 img={element.img}
                 description={element.description}
-                link={element.link}
+                demoLink={element.demo}
+                githubLink={element.github}
               />
             </div>
           );
